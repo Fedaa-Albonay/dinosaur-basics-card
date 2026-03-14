@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Dinosaur Basics Card</title>
+</head>
+<body>
+    <!-- <div> element (short for "division")
+        is a generic container used to group other HTML elements into sections or divisions of a web page.
+        It has no inherent visual effect or meaning by itself until
+        styled using CSS or manipulated with JavaScript.  -->
+
+    <div id="Countainer">
+
+        <!-- The h elements in HTML, specifically <h1> through <h6>,
+        are heading tags used to define the titles and subtitles of sections within a webpage-->
+        <h1>Dinosaur</h1>
+
+        <!---<img> element is used to embed an image in a web page.
+        It is an empty (self-closing) tag, meaning it has no closing tag.--->
+        <img src="img/dinosaur.webp" alt="Dinosaur">
+
+        <!-- <p> element defines a paragraph. It is a block-level element
+        used to structure text into distinct blocks, improving readability and accessibility. -->
+        <p class="disc">Dinosaurs are a diverse group of reptiles belonging to the clade Dinosauria that first appeared
+        between 243 and 233 million years ago during the Triassic period. They were the dominant 
+        terrestrial vertebrates for over 160 million years throughout the Jurassic and Cretaceous periods</p>
+
+        <!--- <hr> element represents a thematic break between paragraph-level elements,
+        such as a change of topic or a shift in a story. It is most often displayed as
+        a horizontal line and is a self-closing (empty) tag, meaning it does not require a closing tag.  -->
+        <hr>
+
+        <!-- <ul> element defines an unordered list of items,
+        meaning the sequence of the items does not change the meaning of the list.
+        The items in the list are represented by one or more <li> (list item) elements nested within the <ul> tags.
+        By default,browsers display unordered lists using bullet points, such as discs, circles, or squares.  -->
+        <ul>
+            <li><strong> Scientific Name: </strong> <span>Dinosaurs</span> </li>
+            <li><strong> Length: </strong> <span>39.7 meters (130 feet) and heights of 18 m (59 ft)</span> </li>
+        </ul>
+
+        <hr class="last-hr">
+
+        <!-- <a> HTML element, also known as the anchor element, is used to create a hyperlink to web pages,
+            files, email addresses, or specific locations within the same page
+            The target attribute of the HTML <a> (anchor) element specifies where to open the linked document.
+            It is an optional attribute and if not specified,the link opens in the current tab or window by default. -->
+
+        <!-- <span> element is a generic inline container used to wrap a small part
+            of text or other inline elements for styling with CSS or manipulation with JavaScript.
+            It has no effect on the content or layout by itself and carries no inherent semantic meaning. -->
+        <p class="disc">
+            Using one of the above <span>definitions</span>,
+            dinosaurs can be generally 
+            <a href="https://en.wikipedia.org/wiki/Dinosaur#General_description" target="_blank">described</a>
+            as archosaurs with hind limbs held erect beneath the body.
+        </p>
+
+    </div>
+</body>
+</html>
