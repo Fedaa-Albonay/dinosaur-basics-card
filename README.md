@@ -29,4 +29,4 @@ The core concepts applied in this project were learned from the **Codezilla** Yo
 2. Open `index.html` in any modern web browser.
 
 ---
-*Created as part of my journey into Web Development and Cybersecurity.*
+*Created as part of my journey into software engineer.*
